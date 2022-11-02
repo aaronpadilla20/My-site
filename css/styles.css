@@ -1,0 +1,139 @@
+a{
+  color: #11999E;
+  display: inline-block;
+  padding: 50px;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1{
+  color: #66BFBF;
+  font-family: 'Freehand', cursive;
+  font-size: 3.75rem;
+  line-height: 2;
+  margin: 0;
+  padding-top: 30px;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.25rem;
+}
+
+h3{
+  color: #66BFBF;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.75rem;
+}
+
+hr{
+  color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 20px;
+  width: 10%;
+}
+
+/*SELECTORES DE CLASE */
+.top-content{
+  position: relative;
+  background-color: #EAF6F6;
+}
+
+.cloud-top{
+  position: relative;
+  top: 15px;
+  left: 200px;
+}
+
+.cloud-bottom{
+  position: absolute;
+}
+
+.skills-header{
+  color: #66BFBF;
+}
+
+.code{
+  width: 10%;
+  float: left;
+  margin: 30px;
+}
+
+.code-header{
+  text-align: left;
+}
+
+.code-text{
+  text-align: left;
+}
+
+.design{
+  width: 10%;
+  float: right;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.cad-text{
+  text-align: left;
+  padding-left: 30px;
+}
+
+.design-header{
+  color: #11999E;
+  text-align: left;
+  padding-left: 30px;
+  clear: left;
+}
+
+.skills-rule{
+  clear: right;
+}
+
+.btn {
+  border-style: none;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 50px auto;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer-content{
+  background-color: #66BFBF;
+  height: 12.5rem;
+}
+
+.footer-text{
+  color: #EAF6F6;
+}
+
+.me-img{
+  margin-top: 20px;
+}
